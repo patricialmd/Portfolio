@@ -1,0 +1,20 @@
+# 👞 Tracking My Mom’s Steps: Step Count Dashboard Data Analysis (June to December 2024)
+
+## Tools: Microsoft Excel 
+
+# Situation
+This personal project focuses on analysing my mom’s step count from June to December of 2024 using Microsoft Excel.
+
+# Task
+My goal was to clean, analyse, and visualise the dataset using advanced Excel functions, conditional formatting, and pivot tables to create an interactive dashboard. 
+
+# Action
+First, I chose to analyse my mom’s daily step count. She recorded the date and number of steps (from her apple watch) in her notebook, which I manually entered into an Excel sheet named “Original Data”. This sheet contains 205 rows and 4 columns: Month, Day, Year, and Step Count. Next, I visited the Bureau of Meteorology Australia website (bom.gov.au) to collect Sydney’s maximum and minimum temperatures for 2024. I then copied and pasted this information into two separate sheets: “Min Temp” and “Max Temp”. 
+
+Second, as shown in Images 1 and 2 below, I applied formulas such as CONCAT, VLOOKUP, IFS, TEXT, AVERAGE in the “Messy Data” sheet. In the ”Clean Data” sheet, the dataset was cleaned and prepared for analysis by removing cells with zero (0) values and applying conditional formatting. 
+
+# Result
+
+# Reflect
+
+
