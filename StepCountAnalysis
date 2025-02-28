@@ -9,12 +9,35 @@ This personal project focuses on analysing my mom’s step count from June to De
 My goal was to clean, analyse, and visualise the dataset using advanced Excel functions, conditional formatting, and pivot tables to create an interactive dashboard. 
 
 # Action
-First, I chose to analyse my mom’s daily step count. She recorded the date and number of steps (from her apple watch) in her notebook, which I manually entered into an Excel sheet named “Original Data”. This sheet contains 205 rows and 4 columns: Month, Day, Year, and Step Count. Next, I visited the Bureau of Meteorology Australia website (bom.gov.au) to collect Sydney’s maximum and minimum temperatures for 2024. I then copied and pasted this information into two separate sheets: “Min Temp” and “Max Temp”. 
+First, I chose to analyse my mom’s daily step count. She recorded the date and number of steps (from her apple watch) in her notebook, which I manually entered into an Excel sheet named “Original Data”. This sheet contains 205 rows and 4 columns: 
+Month, Day, Year, and Step Count. Next, I visited the Bureau of Meteorology Australia website (bom.gov.au) to collect Sydney’s maximum and minimum temperatures for 2024. I then copied and pasted this information into two separate sheets: “Min Temp” 
+and “Max Temp”. 
 
-Second, as shown in Images 1 and 2 below, I applied formulas such as CONCAT, VLOOKUP, IFS, TEXT, AVERAGE in the “Messy Data” sheet. In the ”Clean Data” sheet, the dataset was cleaned and prepared for analysis by removing cells with zero (0) values and applying conditional formatting. 
+Second, I applied formulas such as CONCAT, VLOOKUP, IFS, TEXT, AVERAGE in the “Messy Data” sheet. In the ”Clean Data” sheet, the dataset was cleaned and prepared for analysis by removing cells with zero (0) values and applying conditional formatting. 
+
+Third, I created Pivot Tables and Charts from the Working Sheet to visualise the steps dataset. 
+
+Lastly, I created a dashboard and added slicers to each chart. 
 
 # Result
+The visualisations showed the following insights:
+- From June to December 2024, Mondays had the highest average step count of 18% ,while Sundays had the lowest at 12%.
+- The average step count based on maximum temperature showed that when temperatures ranged from 20 degrees Celsius to 29.9 degrees Celsius, my mom took an average of 7,503 steps. On days with temperatures of 30 degrees Celsius and above, her step 
+count dropped to an average of 5,976 steps.
+- October (Spring) had the highest step count, while August (Winter) had the lowest.
+- June recorded the lowest minimum temperature during the winter season, while September had the lowest minimum temperature during spring. Overall, Spring and Summer (September to December) showed higher step counts compared to Winter (June to August).
 
-# Reflect
+Regarding monthly minimum temperatures:
+- June had the lowest minimum temperature for the year.
+- December had the highest minimum temperature.
+- October had the highest total step count based on minimum temperature, while June and August recorded the lowest total step counts for the year.
+
+As a summary, my mom was most active on Mondays and least active on Sundays. When the temperature was between 20°C and 29.9°C, she averaged 7,503 steps, but on hotter days (30°C and above), the average dropped to 5,976 steps.
+
+Seasonally, she walked more in Spring and Summer compared to Winter, with October (Spring) being her most active month and August (Winter) her least. Based on minimum temperatures, she walked the most in October and the least in June and August.
+
+# Reflection
+By cleaning, analysing, and visualising my mom’s step data combined with the climate data, I learned that she is most active during warmer months compared to colder seasons. Using the patterns revealed in the visualisations, she can adjust her routine 
+to maintain a consistent level of physical activity throughout the year, improving her overall fitness and health.
 
 
