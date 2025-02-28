@@ -1,5 +1,5 @@
 # 📈 My Data Portfolio
-Welcome to my portfolio! A summary of the projects I have completed using Microsoft Excel, Google Sheets, SQL, Python, R, and Tableau for academic projects and self-learning purposes is as follows:
+Welcome to my portfolio! Below is a summary of the projects I have completed using Microsoft Excel, Google Sheets, SQL, Python, and Tableau for academic projects and self-learning purposes.
 
 ### 📚  Summary:  
 | Project Name | Tools Used | Project Description |
